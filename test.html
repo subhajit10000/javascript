@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <style>
+        .container {
+                display: flex;
+                gap: 100px;
+                flex-direction: row;
+                }
+
+                button {
+                width: 200px;                
+                }
+
+    </style>
+</head>
+<body class="body">
+    <div class="container">
+        <button id="red" type="button">RED</button>
+        <button id="green" type="button">GREEN</button>
+        <button id="yellow" type="button">YELLOW</button>
+        <button id="blue" type="button">BLUE</button>
+        <button id="white" type="button">WHITE</button>
+
+    </div>
+
+</body>
+
+<script>
+    const body = document.querySelector(".body");
+
+    const red = document.querySelector("#red");
+    red.addEventListener("click", () => {
+    body.style.backgroundColor = "red";
+    });
+
+    const green = document.querySelector("#green");
+    green.addEventListener("click", () => {
+    body.style.backgroundColor = "green";
+    });
+    const yellow = document.querySelector("#yellow");
+    yellow.addEventListener("click", () => {
+    body.style.backgroundColor = "yellow";
+    });
+    const blue = document.querySelector("#blue");
+    blue.addEventListener("click", () => {
+    body.style.backgroundColor = "blue";
+    });
+    const white = document.querySelector("#white");
+    white.addEventListener("click", () => {
+    body.style.backgroundColor = "white";
+    });
+    
+</script>
+</html>
