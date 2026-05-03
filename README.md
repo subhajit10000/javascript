@@ -2,7 +2,7 @@ Basic JavaScript Language Description
 
 JavaScript is a high level, interpreted programming language that was created in 1995 by Brendan Eich. It was first built to add interactivity to web pages in the browser, but today it runs on servers, mobile apps, desktop apps, and even microcontrollers. The core strength of JavaScript is that it is everywhere the web is. Every modern browser ships with a JavaScript engine, so code runs without extra installation.
 
-Dynamic and Weakly Typed
+Dynamic and Weakly Typed 
 JavaScript is dynamically typed. You declare variables with let, const, or the older var, and you do not specify a type. A variable can hold a number and later a string. The language also performs type coercion, which means "5" + 1 becomes "51" while "5" - 1 becomes 4. This flexibility makes quick scripts easy, but it requires care to avoid unexpected conversions. Tools like TypeScript add optional static types on top of JavaScript for larger projects.
 
 Syntax and Structure
