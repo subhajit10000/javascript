@@ -1,4 +1,4 @@
-Basic JavaScript Language Description
+Basic JavaScript Language
 
 JavaScript is a high level, interpreted programming language that was created in 1995 by Brendan Eich. It was first built to add interactivity to web pages in the browser, but today it runs on servers, mobile apps, desktop apps, and even microcontrollers. The core strength of JavaScript is that it is everywhere the web is. Every modern browser ships with a JavaScript engine, so code runs without extra installation.
 
